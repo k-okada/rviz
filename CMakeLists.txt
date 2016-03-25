@@ -165,6 +165,7 @@ catkin_package(
     ${OPENGL_INCLUDE_DIR}
   LIBRARIES
     rviz
+    default_plugin
     ${OGRE_OV_LIBRARIES_ABS}
     ${rviz_ADDITIONAL_LIBRARIES}
     ${OPENGL_LIBRARIES}
